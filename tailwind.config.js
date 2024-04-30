@@ -6,6 +6,8 @@ module.exports = {
       purple: '#5D47E9',
       white: '#FFFFFF',
       grey: '#F4F4F4',
+      darkMedium: "#353535", 
+      black: "#000000",
     }, 
     screens: {
       'sm': {'max': '639px'}, // jusqu'à 640px
