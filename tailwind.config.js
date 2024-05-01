@@ -19,6 +19,7 @@ module.exports = {
     backgroundImage: {
       'header-image': 'url("/assets/img/1.jpg")',
     },
+    
 
     extend: {},
   },
