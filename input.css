@@ -11,6 +11,6 @@
 
   .boxe 
   {
-    @apply border border-solid border-white rounded-2xl w-[350px] p-8 flex flex-col justify-center md:items-center;
+    @apply border border-solid border-white rounded-2xl w-[350px] p-8 flex flex-col justify-center md:items-center ;
   }
 }
