@@ -834,6 +834,14 @@ video {
   margin-top: -4rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -975,6 +983,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[86vw\] {
+  width: 86vw;
+}
+
+.w-\[84vw\] {
+  width: 84vw;
 }
 
 .max-w-\[250px\] {
@@ -1837,6 +1853,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-b {
