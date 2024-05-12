@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html class="scroll-smooth" lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,51 +13,53 @@
   </head>
 
   <body>
+
+	<!-- Navbar au format mobile -->
 	<div class="navbar-burger z-20 bg-white fixed top-0 text-black w-full justify-between py-3 px-2 hidden md:flex ">
 		<h1 class="font-bold">LearnM5</h1>
 		<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h22M5 16h22M5 24h22"/></svg>
 	</div>
 	<div class="toggle-menu opacity-0 ">
 		<ul class=" gap-4 flex flex-col fixed mt-14 justify-center items-center z-20 text-xl bg-white w-full   ">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Features</a></li>
-			<li><a href="#">Team</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Testimonials</a></li>
-			<li><a href="#">Help</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#team">Team</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#testimonials">Testimonials</a></li>
+			<li><a href="#help">Help</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
 
+
+	<!-- Header qui contient la partie home -->
 	<header class="flex justify-center items-center bg-purple h-[87.7vh] md:h-[80vh]">
-
-
-
-		<div class="white-container bg-white w-[84vw] h-[77vh] rounded-3xl overflow-hidden relative">
-		  <!-- NavBar-->
+		<!-- Container home -->
+		<div id="home" class="white-container bg-white w-[84vw] h-[77vh] rounded-3xl overflow-hidden relative">
 		  <div class="header-container flex justify-between items-center mt-4 mx-10 ">
 			<div class="header-logo">
 			  <h1 class="font-bold text-3xl md:hidden">LearnM5</h1>
 			</div>
+			<!-- Navbar au format desktop -->
 			<div class="header-nav gap-4 flex md:hidden z-10 ">
 			  <ul class="flex gap-10 bg-white text-2xl px-10 py-2 rounded-2xl">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Testimonials</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#testimonials">Testimonials</a></li>
+				<li><a href="#help">Help</a></li>
+				<li><a href="#contact">Contact</a></li>
 			  </ul>
 			</div>
 		  </div>
 
 		
 	  
-		  <!-- Content Header -->
+		  <!-- Content Home -->
 		  <div class="content flex flex-row w-full h-full relative md:flex-col ">
 			<div class="content-header flex flex-col w-1/2 mt-20 md:w-full md:mt-5">
-			  <h1 class="text-7xl font-bold mb-6 mx-16 md:mx-8 md:text-3xl md:mb-0">Online Spanish Courses</h1>
+			  <h1 class="text-7xl font-bold mb-6 mx-16 md:mx-8 md:text-3xl md:mb-0 md:mt-5">Online Spanish Courses</h1>
 			  <p class="text-2xl mt-4 mx-16 md:mx-8 md:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores explicabo aperiam aliquam natus nostrum, odio perferendis, magni ducimus pariatur, quod aut. Veritatis, tempore suscipit ipsa eos maiores ipsum similique id.</p>
 			  <button class="bg-purple text-white px-4 rounded-xl mt-4 w-1/3 py-4 text-xl mx-16 md:mx-8 md:w-[150px] md:mb-8 md:text-base md:py-2">
 				Get Started
@@ -68,92 +70,97 @@
 		  </div>
 		</div>
 	  </header>
-	  
-
-
 
 
     <main>
 		<!-- Features -->
-		<div class="features-container pb-10 ">
+		<div id="features" class="features-container pb-10 ">
 			<h1 class="font-bold text-darkMedium text-7xl text-center mt-16  mb-10 md:text-5xl">Our Features </h1>
 			<div class="features flex gap-10 mx-28 flex-wrap items-center justify-center md:mx-6">
+				<!-- First Feature -->
 				<div class="feature">
-					<h3 class="text-xl mx-8 mt-6">1</h3>
-					<h2 class="text-3xl font-bold mx-8 md:text-xl text-darkMedium">Modern teaching methods</h2>
-					<p class="mx-8 text-2xl mb-8 md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
+					<h3 class="feature-h3">1</h3>
+					<h2 class="feature-h2">Modern teaching methods</h2>
+					<p class="feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
 					<img src="./assets/img/2.jpg" alt="2" class="h-[270px] object-cover md:h-[150px]">
 				</div>
 
+				<!-- Second Feature -->
 				<div class="feature ">
-					<h3 class="text-xl mx-8 mt-6">2</h3>
-					<h2 class="text-3xl font-bold mx-8 md:text-xl text-darkMedium">Modern teaching methods</h2>
-					<p class="mx-8 text-2xl mb-8 md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
+					<h3 class="feature-h3">2</h3>
+					<h2 class="feature-h2">Modern teaching methods</h2>
+					<p class="feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
 					<img src="./assets/img/3.jpg" alt="2" class="h-[270px] object-cover md:h-[150px]">
 				</div>
 
+				<!-- Third Feature -->
 				<div class="feature">
-					<h3 class="text-xl mx-8 mt-6">3</h3>
-					<h2 class="text-3xl font-bold mx-8 md:text-xl text-darkMedium">Modern teaching methods</h2>
-					<p class="mx-8 text-2xl mb-8 md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
+					<h3 class="feature-h3">3</h3>
+					<h2 class="feature-h2">Modern teaching methods</h2>
+					<p class="feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
 					<img src="./assets/img/4.jpg" alt="2" class="h-[270px] object-cover md:h-[150px]">
 				</div>
 
+				<!-- Fourth Feature -->
 				<div class="feature">
-					<h3 class="text-xl mx-8 mt-6">4</h3>
-					<h2 class="text-3xl font-bold mx-8 md:text-xl text-darkMedium">Modern teaching methods</h2>
-					<p class="mx-8 text-2xl mb-8 md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
+					<h3 class="feature-h3">4</h3>
+					<h2 class="feature-h2">Modern teaching methods</h2>
+					<p class="feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium voluptates suscipit obcaecati sint doloremque ex quis odio excepturi dolorem.</p>
 					<img src="./assets/img/5.jpg" alt="2" class="h-[270px] object-cover md:h-[150px]">
 				</div>
 			</div>
 		</div>
 
-		<div class="go-container bg-purple w-full pb-16 relative pt-12">
+
+		<!-- Team -->
+		<div id="team" class="go-container bg-purple w-full pb-16 relative pt-12 md:text-center">
+
 			<h1 class="text text-center text-7xl py-10 text-white z-10 relative font-bold">go!</h1>
-		
+	
 			<svg xmlns="http://www.w3.org/2000/svg" class="-mt-40 z-0 relative mx-auto" width="250" height="250" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform: scaleX(-1);"><path d="M12 2C6.486 2 2 5.589 2 10c0 2.908 1.898 5.515 5 6.934V22l5.34-4.005C17.697 17.852 22 14.32 22 10c0-4.411-4.486-8-10-8z"></path></svg>
 			
 			<div class="boxes flex flex-wrap justify-center gap-8 ">
 				<div class="boxe md:items-center">
-					<h1 class="text-7xl font-bold text-white ml-6 mb-4 md:ml-0 md:text-4xl">136</h1>
-					<div class="box-content flex flex-col">
-						<p class="text-2xl text-white ml-8 md:ml-0">Unique</p>
-						<p class="text-2xl text-white ml-8 md:ml-0">Colors</p>
+					<h1 class="boxe-h1">136</h1>
+					<div class="box-content">
+						<p class="boxe-p">Unique</p>
+						<p class="boxe-p">Colors</p>
 					</div>
 				</div>
 		
-				<div class="boxe">
-					<h1 class="text-7xl font-bold text-white ml-6 mb-4 md:ml-0 md:text-4xl">117</h1>
-					<div class="box-content flex flex-col">
-					<p class="text-2xl text-white ml-8 md:ml-0">Supers</p>
-					<p class="text-2xl text-white ml-8 md:ml-0">Professeurs</p>
+				<div class="boxe flex flex-col">
+					<h1 class="boxe-h1 ">117</h1>
+					<div class="box-content">
+					<p class="boxe-p">Supers</p>
+					<p class="boxe-p">Professeurs</p>
 					</div>
 				</div>
 
 				<div class="boxe">
-					<h1 class="text-7xl font-bold text-white ml-6 mb-4 md:ml-0 md:text-4xl">734</h1>
-					<div class="box-content flex flex-col">
-					<p class="text-2xl text-white ml-8 md:ml-0">Etudiant.es</p>
-					<p class="text-2xl text-white ml-8 md:ml-0">Satisfait.es</p>
+					<h1 class="boxe-h1">734</h1>
+					<div class="box-content">
+					<p class="boxe-p">Etudiant.es</p>
+					<p class="boxe-p">Satisfait.es</p>
 					</div>
 				</div>
 				<div class="boxe">
-					<h1 class="text-7xl font-bold text-white ml-6 mb-4 md:ml-0 md:text-4xl">346</h1>
-					<div class="box-content flex flex-col">
-					<p class="text-2xl text-white ml-8 md:ml-0">Diplôme</p>
-					<p class="text-2xl text-white ml-8 md:ml-0">Obtenus</p>
+					<h1 class="boxe-h1">346</h1>
+					<div class="box-content">
+					<p class="boxe-p">Diplôme</p>
+					<p class="boxe-p">Obtenus</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
+		<!-- Footer -->
 		<div class="footer bg-black text-white">
-			<div class="footer-content flex justify-evenly w-full pt-16 text-xl md:flex-col md:justify-center md:gap-8 md:items-center">
-				<div class="footer-one flex flex-col md:justify-center md:items-center">
+			<div class="footer-content flex justify-evenly w-full pt-16 text-xl md:flex-col md:justify-center md:gap-8 md:items-center md:text-center">
+				<div id="about" class="footer-one flex flex-col md:justify-center md:items-center">
 					<p class="font-bold">+1(234)567-89-01</p>
 					<p class="max-w-[250px] ">Lorem ipsum, dolor sit amet consectur adipisicing elit.</p>
 				</div>
-				<div class="footer-second flex flex-col md:justify-center md:items-center">
+				<div id="testimonials" class="footer-second flex flex-col md:justify-center md:items-center">
 					<p>Copyright 2024 B1 MDS</p>
 					<p>All Rights Reserved</p>
 				</div>
@@ -169,7 +176,7 @@
 				</div>
 		
 				
-				<div class="footer-fourth md:justify-center md:items-center">
+				<div id="help" class="footer-fourth md:justify-center md:items-center">
 					<p class="font-bold mb-4">Infos</p>
 					<ul>
 						<li>About</li>
@@ -181,7 +188,7 @@
 			</div>
 			<hr class="mt-32 mb-10 mx-24 md:mx-auto md:mt-16" >
 
-			<div class="bottom-footer flex justify-evenly  pb-8 md:flex-col md:justify-center md:items-center md:mt-8 md:gap-4 text-xl">
+			<div id="contact" class="bottom-footer flex justify-evenly  pb-8 md:flex-col md:justify-center md:items-center md:mt-8 md:gap-4 text-xl">
 				<p>© Copyright 2024 </p>
 				<p>superemail@gmail.com</p>
 				<p>Fais par une classe badass</p>
@@ -194,6 +201,7 @@
 	</main>
     <footer></footer>
   </body>
+	<!-- Script pour le toggle menu -->
   <script>
 	const burger = document.querySelector('.navbar-burger svg');
 	const menu = document.querySelector('.toggle-menu');

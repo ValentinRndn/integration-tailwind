@@ -14,3 +14,27 @@
     @apply border border-solid border-white rounded-2xl w-[350px] p-8 flex flex-col justify-center md:items-center ;
   }
 }
+
+.feature-h3 {
+  @apply text-xl mx-8 mt-6;
+}
+
+.feature-h2 {
+  @apply text-3xl font-bold mx-8 md:text-xl text-darkMedium;
+}
+
+.feature-p {
+  @apply mx-8 text-2xl mb-8 md:text-lg;
+}
+
+.boxe-h1 {
+  @apply text-7xl font-bold text-white ml-6 mb-4 md:ml-0 md:text-4xl;
+}
+
+.boxe-content {
+  @apply flex flex-col md:text-center; 
+}
+
+.boxe-p {
+  @apply text-2xl text-white ml-8 md:ml-0;
+}
